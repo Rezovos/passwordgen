@@ -62,4 +62,20 @@ function passOptions() {
     'Click OK to confirm including lowercase characters.'
   );
 
-  
+  // Variable to store boolean regarding the inclusion of uppercase characters
+
+
+  if (
+    hasspecChar === false &&
+    hasnumbChar === false &&
+    hasLowerCasedCharacters === false &&
+    hasUpperCasedCharacters === false
+  ) {
+    alert('Must select at least one character type');
+    return null;
+  }
+
+  var passwordOptions = {
+    length: length,
+    hasspecChar: hasspecChar,
+
