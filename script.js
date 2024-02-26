@@ -62,7 +62,7 @@ function passOptions() {
     'Click OK to confirm including lowercase characters.'
   );
 
-  // Variable to store boolean regarding the inclusion of uppercase characters
+  // Variable to store boolean regardingthe uppercase characters
 
 
   if (
